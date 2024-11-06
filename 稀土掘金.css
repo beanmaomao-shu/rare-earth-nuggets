@@ -1,0 +1,317 @@
+/* 基础设置 */
+.container{
+    width: 1800px;
+    margin:0 auto;
+    background-color: greenyellow;
+}
+/* #region顶部导航条 */
+.tobar {
+    height: 60px;
+    background-color:#FFFFFF ;
+}
+.leftcontain{
+    width:137px;
+}
+.tobar .leftcontain{
+    padding-top:18.86px;
+    margin-right: 15px;
+    display: inline;
+}
+/* 首页导航条 */
+.tobar .container .phone-show-menu{
+    padding-top: 20px;
+}
+.tobar .container .phone-show-menu ul{
+    margin: 0 auto;
+}
+.tobar .container .phone-show-menu li{
+    line-height: 20px;
+    height: 20px;
+    font:bold gray;
+    font-size: 15px;
+    float:left;
+    margin-right:15px;
+    padding-bottom: 16px;
+    border-bottom:2px;
+}
+.tobar .container .phone-show-menu li:hover{
+    cursor: pointer;
+    border-bottom-color:#1E80FF ;
+}
+.tobar .container .phone-show-menu li:first-child{
+    color: #1E80FF;
+}
+.tobar .container .phone-show-menu li:last-child{
+    padding-bottom: 0;
+}
+/* 搜索框 */
+#search-border-1{
+    line-height:30px;
+    height:30px;
+}
+.tobar .container .phone-show-menu .search-border-1{
+    vertical-align: middle;
+}
+.tobar .container .phone-show-menu input{
+    padding:8.2px 60px 6.2px 12px;
+    margin-left: 350px;
+} 
+.tobar .container .phone-show-menu .first-button{
+    background-image: url(./稀土掘金图标/svgexport-2.png);
+    background-repeat: no-repeat;
+    background-position: 13px 5px;
+    width: 44px;
+    height: 30px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+/* 创作者中心 */
+#creater{
+    width: 115px;
+    height: 20px;
+    line-height: 20px;
+    margin:0 auto;
+    background-color:#1E80FF ; 
+
+} 
+.creater-center{ 
+    padding-left:20px; 
+}
+.creater-center img{
+    padding-top: 12px;
+}
+.creater-center button{
+    margin-top: 8px;
+    font-size:15px;
+}
+.vip-title{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+/* 登录与注册 */
+ .nav-resist .login-button-nav{
+    cursor: pointer;
+    margin-bottom: 0;
+    background-color: gold;
+    position: relative;
+    margin-top: 5px;
+}
+.nav-resist .resist-form{
+    width: 300px;
+    height: 190px;
+    background-color: red;
+    position: absolute;
+    right: 1px;
+    display: none;
+}
+.login-button-nav:hover .resist-form{
+    display: block;
+}
+.nav-resist .resist-form1{
+    width: 240px;
+    height: 90px;
+    background-color: coral;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+.nav-resist .resist-form1 img{
+    margin-left: 23px;
+}
+.nav-resist .resist-form1 p{
+    font-size: 14px;
+}
+.nav-resist .resist-form .resist-form1 div:nth-child(3){
+    margin-left: 26px;
+    margin-right: 26px; 
+}
+.nav-resist .resist-form .resist-form1 span{
+    font-size: 8px;
+}
+
+
+/* #endregion顶部导航条 */
+
+/* #region侧边导航栏 */
+.slide-nav{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    background-color: salmon;
+}
+.slide-nav li{
+    padding: 13px 0;
+}
+.slide-nav li div{
+    width: 160px;
+}
+.slide-nav li:hover{
+    background-color: aliceblue;
+}
+.slide-nav li:hover{
+    color: #1E80FF;
+}
+.slide-nav span{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.slide-nav img{
+    padding-top: 5.5px;
+}
+/* #endregion侧边导航栏 */
+
+/* #region主要内容区 */
+.main-heart{
+    width: 1800px;
+}
+.main-heart .main-contain{
+    width: 1400px;
+    margin-left: 250px;
+    margin-top: 10px;
+    /* background-color: black; */
+}
+/* 头导航 */
+.main-heart .main-contain header{
+    width: 680px;
+    padding:12px 19.92px;
+    background-color: burlywood;
+    margin-bottom: 10px;
+}
+.main-heart .main-contain header a{
+    font-size: 15px;
+    margin-right: 50px;
+}
+/* 阅读内容 */
+.main-heart .main-contain .all .content{
+    width: 680px;
+    height:90.67px ;
+    padding:12px 20px 0;
+    background-color: aqua;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.main-heart .main-contain .all .content div{
+    margin:5px 0;
+    overflow: hidden;
+}
+.main-heart .main-contain .all .content a{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.main-heart .main-contain .all .content li{
+    margin-right: 10px;
+}
+.main-heart .main-contain .all .content li:hover{
+    color: #1E80FF;
+}
+.main-heart .main-contain .all .content li ul li{
+ 
+    background-color: rgb(210, 169, 248);
+    margin: 0 auto;
+    margin-right: 5px;
+}
+.main-heart .main-contain .all .content li ul li:hover{
+    color: #1E80FF;
+}
+.main-heart .main-contain .all .content li ul li p{
+    margin: 0 3px;
+}
+.main-heart .main-contain .all .content .match-img{
+    float: right;
+    width: 150px;
+    height: 80px;
+}
+/* #endregion主要内容区 */
+
+/* #region其他 */
+/* 签到栏 */
+.main-heart .other .sign-in{
+    width: 260px;
+    height: 90px;
+    background-color: palevioletred;
+    margin-bottom: 20px;
+}
+.main-heart .other .sign-in .leftfix{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: aquamarine;
+}
+.main-heart .other .sign-in .rightfix{
+    width: 74px;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-right: 25px;
+    background-color: darkolivegreen;
+    text-align: center;
+    font-size: 0;
+}
+.main-heart .other .sign-in .rightfix button{
+    vertical-align: middle;
+}
+/* 文章榜 */
+ .artical-ranking-list{
+    width: 260px;
+    height: 292px;
+    background-color: wheat;
+    margin-bottom: 20px;
+}
+.artical-ranking-list ol li{
+    margin-top: 23px;
+    cursor: pointer;
+    width: 260px;
+}
+.artical-ranking-list ol li:hover{
+    color: #1E80FF;
+
+}
+.artical-ranking-list ol p,span{
+    font-size: 15px;
+}
+.artical-ranking-list ol p{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+/* 广告 */
+.main-heart .other .artical{
+    width: 260px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+/* 作者榜 */
+.main-heart .other .writer-list{
+    width: 260px;
+    height: 392px;
+    background-color: lightseagreen;
+}
+.main-heart .other .writer-list li{
+    margin:10px 0;
+}
+/* 推荐话题 */
+.main-heart .other .recommend{
+    width: 260px;
+    height: 445px;
+    background-color: darkkhaki;
+    margin-top: 20px;
+}
+.main-heart .other .recommend a p:first-child{
+    float: left;
+}
+.main-heart .other .recommend a img{
+    float: left;
+}
+.main-heart .other .recommend a p:nth-child(2){
+    float: right;
+}
+.main-heart .other .recommend>a{
+    margin-left: 70px;
+}
+
+
+/* #endregion其他 */
+
+
+
+
+
